@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 int main(void) {
-	// ќголошенн€
+	// оголошення
 	int ch, str[79 + 1];
 	int x, y, z;
 	float a, b, c;
@@ -26,14 +26,14 @@ int main(void) {
 	y = 7;
 	z = x * y;
 	printf("\n \t The multiplication %d on %i(as integer) is equal:%d \n", x, y, z);
-	// 2-частина
+	// 2-а частина
 	printf("\n \t Enter a symbol:");
 	scanf_s("%c", &ch, 1);
 	printf("\t The symbol is:%c \n", ch);
 	printf("\n \t Enter any string:");
 	scanf_s("%s", &str, 79);
 	printf("\t The string is:%s \n", str);
-	_flushall(); // дл€ усуненн€ порожнього р€дка
+	_flushall(); // для очищення пустого рядка
 	printf("\t Enter a real number a:");
 	scanf_s("%f", &a);
 	printf("\t Enter a real number b:");
